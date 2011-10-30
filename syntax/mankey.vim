@@ -23,7 +23,7 @@ syn match mankeyTopic	'^\S\+'		skipwhite nextgroup=mankeyType,mankeyBook
 syn match mankeyType	'\[\S\+\]'	contained skipwhite nextgroup=mankeySep,mankeyBook contains=mankeyTypeDelim
 syn match mankeyTypeDelim	'[[\]]'	contained
 syn region mankeyBook	matchgroup=Delimiter start='(' end=')'	contained skipwhite nextgroup=mankeySep
-syn match mankeySep		'\s\+-\s\+'	
+syn match mankeySep		'\s\+-\s\+'
 
 " ---------------------------------------------------------------------
 "  Highlighting Colorizing Links:

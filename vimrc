@@ -1,7 +1,7 @@
 set nocompatible " must be the first line
 " Needed on some linux distros.
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
-filetype off 
+filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -18,7 +18,7 @@ let mapleader = ","
 " added word chars
 set iskeyword+=$
 " set iskeyword+=-
-set iskeyword+=_ 
+set iskeyword+=_
 
 " allow buffer to be put in the background without saving
 set hidden
@@ -106,7 +106,7 @@ endif
 
 " Font. Very important.
 " set guifont="Meslo LG M DZ":h13
-" 
+"
 " if has('win32') || has('win64')
 " 	set guifont=Consolas:h13:cANSI
 " elseif has('unix')
@@ -198,9 +198,9 @@ nnoremap zO zo
 :noremap <c-q> :bd<CR>
 
 " remap going through windows
-map <c-j> <c-w>j 
-map <c-k> <c-w>k 
-map <c-l> <c-w>l 
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
 map <c-h> <c-w>h
 map <c-c>j <c-w>j<c-w>c<c-w>k
 map <c-c>k <c-w>k<c-w>c<c-w>j
